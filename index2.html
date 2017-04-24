@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kentia</title>
+    <meta charset="UTF-8">     
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style type="text/css" media="screen">
+
+
+    	/*==================================================
+  =            Bootstrap 3 Media Queries           =
+  ==================================================*/
+
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: none;
+  }
+
+  /*.contenedor{
+  	position: relative;
+  	overflow: auto;
+  	margin-right: 16px;
+  }
+
+  .contendor .footer_inner{
+  	position: relative;
+  	height: auto;
+  }*/
+
+
+  .header{
+  	background-image: url('Menu.png');
+  	background-repeat: no-repeat;  	
+  }
+
+@media only screen and (max-width : 35.500em) {
+	.header{
+		background-size: 110% 100%;
+		overflow: hidden;
+	}
+	.header .redes{
+		width: 100%;
+		text-align: right;
+		padding-right: 10px
+	}
+
+	.header .redes img{
+		width: 7%;
+	}
+}
+
+/* Dispositivos menores a 768px 48em   XS*/
+@media only screen and (min-width: 35.500em) and (max-width: 48em) {
+
+
+	.crop {
+	    width: 100%;
+	    overflow: hidden;
+	}
+
+	.crop > img {
+	    width: 150%;
+	    margin: 0 0 0 -130px;
+	}
+	.crop .redes {  	
+	  	position:relative;
+	  	top:15px; 
+	  	right:15px;
+  	}
+  	.crop .redes_footer {  	
+	  	position: relative;
+	  	bottom: 70px;
+	  	right: 128px;
+  	}
+	.crop .redes img, .crop .redes_footer img {
+		width: 10%;
+	}
+}
+
+
+    </style>
+
+</head>
+<body>
+
+
+<div class="header">
+	<div class="redes">
+		<a href="https://www.instagram.com/kentia.green/" target="_blank"><img src="instagram.png"></a>
+		<a href="https://www.facebook.com/kentia.green/" target="_blank"><img src="facebook.png"></a>
+	</div>	
+</div>
+
+
+<!--
+<div class="container-fluid">
+	<div class="row">	
+		<img src="Menu.png" >
+		<div class="redes">
+			<a href="https://www.instagram.com/kentia.green/" target="_blank"><img src="instagram.png"></a>
+			<a href="https://www.facebook.com/kentia.green/" target="_blank"><img src="facebook.png"></a>
+		</div>		
+	</div>
+</div>-->
+
+
+
+
+
+
+
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</html>

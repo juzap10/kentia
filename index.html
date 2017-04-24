@@ -18,17 +18,12 @@
       margin: none;
   }
 
-  .contenedor{
-  	position: relative;
-  	overflow: auto;
-  	float: left;
-  	margin-right: 16px;
+
+  .header{
+  	background-image: url('Menu.png');
+  	background-repeat: no-repeat;  	
   }
 
-  .contendor .footer_inner{
-  	position: relative;
-  	height: auto;
-  }
 
 /* Portrait*/
 @media only screen 
@@ -36,7 +31,21 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait)  {
 
-  	.crop {
+  	.header{
+		background-size: 110% 100%;
+		overflow: hidden;
+	}
+	.header .redes{
+		width: 100%;
+		text-align: right;
+		padding-right: 10px
+	}
+
+	.header .redes img{
+		width: 7%;
+	}
+
+  	/*.crop {
 	    width: 100%;
 	    overflow: hidden;
 	}
@@ -58,7 +67,7 @@
   	}
 	.crop .redes a img, .crop .redes_footer a img {
 		width: 10%;
-	}
+	}*/
 
 }
 
@@ -69,7 +78,21 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait)  {
 
-  	.crop {
+  	.header{
+		background-size: 110% 100%;
+		overflow: hidden;
+	}
+	.header .redes{
+		width: 100%;
+		text-align: right;
+		padding-right: 10px
+	}
+
+	.header .redes img{
+		width: 7%;
+	}
+
+  	/*.crop {
 	    width: 100%;
 	    overflow: hidden;
 	}
@@ -90,7 +113,7 @@
   	}
 	.crop .redes img, .crop .redes_footer img {
 		width: 10%;
-	}
+	}*/
 
 }
 
@@ -103,7 +126,21 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape)  {
 
-  	.crop {
+  	.header{
+		background-size: 110% 100%;
+		overflow: hidden;
+	}
+	.header .redes{
+		width: 100%;
+		text-align: right;
+		padding-right: 10px
+	}
+
+	.header .redes img{
+		width: 7%;
+	}
+
+  	/*.crop {
 	    width: 100%;
 	    overflow: hidden;
 	}
@@ -124,7 +161,7 @@
   	}
 	.crop .redes img, .crop .redes_footer img {
 		width: 10%;
-	}
+	}*/
 }
 
 
@@ -134,7 +171,21 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape)  {
 
-  	.crop {
+  	.header{
+		background-size: 110% 100%;
+		overflow: hidden;
+	}
+	.header .redes{
+		width: 100%;
+		text-align: right;
+		padding-right: 10px
+	}
+
+	.header .redes img{
+		width: 7%;
+	}
+
+  	/*.crop {
 	    width: 100%;
 	    overflow: hidden;
 	}
@@ -155,7 +206,7 @@
   	}
 	.crop .redes img, .crop .redes_footer img {
 		width: 10%;
-	}
+	}*/
 
 }
 
@@ -336,14 +387,20 @@
 </head>
 <body>
 
-<div class="crop">
+<div class="header">
+	<div class="redes">
+		<a href="https://www.instagram.com/kentia.green/" target="_blank"><img src="instagram.png"></a>
+		<a href="https://www.facebook.com/kentia.green/" target="_blank"><img src="facebook.png"></a>
+	</div>	
+</div>
+
+<!--<div class="crop">
 	<img src="Menu.png" >
 	<div class="redes">
 		<a href="https://www.instagram.com/kentia.green/" target="_blank"><img src="instagram.png"></a>
 		<a href="https://www.facebook.com/kentia.green/" target="_blank"><img src="facebook.png"></a>
-	</div>
-	
-</div>
+	</div>	
+</div>-->
 
 
 <div>
